@@ -1,49 +1,73 @@
+
 #menu {
 	width: 100%;
+	background-color: rgba(0,0,0, 0.5);
+	position: absolute;
+	position: fixed;
+	border: 1px solid black;
+	top: 0;
+	left: 0;
 }
 
-#menu_left {
-	float: left;
+#menu_top {
+	margin-top: -16px;
 }
-#menu_left li {
+#menu_top li {
+	display: block;
 	float: left;
 	list-style: none;
 }
-#menu_left li a {
-	display: block;
+
+.curtains img {
+	position: relative;
+}
+
+#menu_top li a {
+	display: inline-block;
 	text-decoration: none;
-	border: 2px solid black;
-	margin-left: 50px;
+	background-color: white;
+	margin-right: 10px;
+	background-color: rgba(0,0,0, 0.2);
+	color: white;
 }
-#menu_right {
-	float: right;
+
+#menu a:hover {
+	background-color: blue;
 }
-#menu_right li {
-	float: right;
-	list-style: none;
-}
-#menu_right li a {
-	display: block;
-	text-decoration: none;
-	border: 2px solid black;
-	margin-right: 50px;
-}
-#content {
+
+.pages {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	margin-bottom: 0px;
+	margin-left: -9px;
+	margin-right: -8px;
+	margin-bottom: -22px;
+	padding: 20px; 
 	text-align: center;
 }
-
 #page1 {
 	height: 1000px;
-}
+	background: url(http://imageshack.us/a/img829/9262/2013529121334762.png);
+	margin-top: -9px;
+	
+	}
 
 #page2 {
 	height: 1000px;
+	background-image: url(http://imageshack.us/a/img6/576/201265132548297.png);
 }
 
 #page3 {
 	height: 1000px;
+	background-image: url(http://imageshack.us/a/img861/9955/201232195239182.png);
 }
 
-#page 4 {
+#page4 {
 	height: 1000px;
+	background-image: url(http://imageshack.us/a/img42/8384/201221418391845.png);
+}
+#footer {
+	text-align: center;
+	margin-top: 22px;
 }
