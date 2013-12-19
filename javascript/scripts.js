@@ -1,3 +1,21 @@
+
+
+
+$('body').mousedown(function(e){if(e.button==1)return false});
+
+// left: 37, up: 38, right: 39, down: 40,
+// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+
+/*
+$(document).ready(function() {
+    $(".imgChange").click(function(){
+    {
+        $('#page0').css("background-image","url(../css/pic/logoTexture.jpg)"); //   Correct the path to your image
+    } 
+
+}
+
+/* Verticall scroll */
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -12,34 +30,21 @@ $(document).ready(function(){
 	    });
 	});
 });
-/*
-var colors = [
-     [250, 195, 56], // Gold
-     [250, 0, 0],    // Red
-     [0, 250, 0],    // Green
-     [0, 0, 250],    // Blue
-];
 
-var height = $('body').height() - window.innerHeight;
-
-$(document).scroll(function() {
-  var steps = Math.floor(height / colors.length);
-  var position = $(this).scrollTop();
-  var currentStep = Math.floor(position / steps);
-  if ( currentStep === colors.length ) currentStep = colors.length - 1;
-  var rgb = $("body").css('background-color').replace('rgb(','').replace(')','').replace(/\s/g, '').split(',');     
-  var previousColor = colors[currentStep] || colors[0];
-  var nextColor = colors[currentStep+1] || colors[colors.length-1];
-  var percentFromThisStep = ( position - ( currentStep * steps ) ) / steps;
-  if ( percentFromThisStep > 1 ) percentFromThisStep = 1;
-
-  var newRgb = [
-     Math.floor(previousColor[0] + ( ( nextColor[0] - previousColor[0] ) * percentFromThisStep )),
-     Math.floor(previousColor[1] + ( ( nextColor[1] - previousColor[1] ) * percentFromThisStep )),
-     Math.floor(previousColor[2] + ( ( nextColor[2] - previousColor[2] ) * percentFromThisStep ))
-  ];
-
-  $("body").css('background-color', 'rgb('+ newRgb.join(',') +')');
+//Horizontal scroll
+$(function() {
+    $('a[class^="horiScroll"]').bind('click',function(event){
+        var $anchor = $(this);
+        /*
+        if you want to use one of the easing effects:
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+         */
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1000);
+        event.preventDefault();
+    });
 });
 
-*/

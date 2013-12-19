@@ -129,7 +129,13 @@ legend {
 
 
 /* Min kod */
+html {
+	
+}
 
+body {
+
+}
 
 #menu {
 	overflow: auto;
@@ -167,45 +173,93 @@ legend {
 }
 
 .pages {
-	display: table;
+	overflow: auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; 
-	text-align: center;
+	
 	height: 100vh;
 }
 
+.pageBox {
+	
+}
+
 .pageTextBox {
-	margin-top: 40vh;
-	/*background-color: rgba(0,0,0, .5);*/
+	/*
+	text-align: center;
+	margin-top: 25%;
 	background-color: rgba(255,255,255,0.5);
-	padding: 50px;
+	padding: 50px; 
+	*/
 
 
 	
 }
 
 #page0 {
-	background-image: url(http://imageshack.us/a/img337/3153/2012130174248192.png);
+	background-image: url(http://wakpaper.com/large/Laptops_wallpapers_168.jpg);
 	/*color: rgba(255,255,255,0.8);*/
+	color: white;
+	font-size: 70px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	text-shadow: 0px 2px 5px black;
 	}
 
+
+#page0 .pageBox {
+	background-image: url(pic/logoTexture.jpg);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+	padding-left: 20px;
+	margin-top: 10%;
+	background-color: rgba(64,64,64,.8);
+	width: 80%;
+}
+
+#frontPic {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-right: 5px;
+
+}
+
+.frontPicClass {
+	box-shadow: 5px 5px 2px rgba(0,0,0,.5);	
+}
+
 #page1 {
-	background-image: url(http://imageshack.us/a/img6/576/201265132548297.png);
+	background-image: url(http://wallpoper.com/images/00/36/63/48/point-alaska_00366348.jpg);
 	color: rgba(255,255,255,0.8);
 }
 
 #page2 {
-	background-image: url(http://imageshack.us/a/img861/9955/201232195239182.png);
+	background-image: url(http://wallpoper.com/images/00/44/60/48/alaskan-brown-bear-hallo-bay-alaska_00446048.jpg);
 }
 
 #page3 {
-	background-image: url(http://imageshack.us/a/img42/8384/201221418391845.png);
+	background-image: url(http://wallpoper.com/images/00/41/34/23/alaska-grizzly_00413423.jpg);
 	color: rgba(255,255,255,0.8);
 }
+#page4 {
 
-
+	background-image: url(http://images4.alphacoders.com/258/258226.jpg);
+	position: absolute; 
+	width: 100%;
+	right: -100%;
+	top: 300%;
+}
+#page4 .pageTextBox {
+	margin-top: 20%;
+}
+#form {
+	margin: auto;
+	border-color: rgba(0,0,0,.5);
+	border-style: solid;
+	width: 300px;
+}
 #footer {
+	display: none;
 	text-align: center;
 	background-color: rgba(0,0,0,.9);
 	color: rgba(255,255,255,0.6);
