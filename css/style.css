@@ -160,15 +160,14 @@ body {
 
 
 #menu_top li a {
+	padding: 0 5px 0 5px;
 	display: inline-block;
 	text-decoration: none;
 	background-color: white;
 	margin-right: 20px;
-	background-color: rgba(0,0,0, 0.2);
+	background-color: rgba(0,0,0, 0.6);
 	color: white;
 	border: 1px solid black;
-
-
 }
 
 #menu a:hover {
@@ -180,17 +179,16 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; 
-	
 	height: 100vh;
 }
 
-.pageBox {	
-}
-
 .pageTextBox {
-	/*
+	background-color: rgba(255,255,255,.7);
+	color: rgba(0,0,0,.8);
+}
+.pageTextBox h1{
 	text-align: center;
-	margin-top: 25%;
+	/*margin-top: 25%;
 	background-color: rgba(255,255,255,0.5);
 	padding: 50px; 
 	*/
@@ -203,7 +201,6 @@ body {
 	font-size: 70px;
 	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
 	text-shadow: 0px 2px 5px black;
-
 	}
 
 
@@ -222,7 +219,6 @@ body {
 	top: 40%;
 	right: 0;
 	margin-right: 5px;
-
 }
 
 .frontPicClass {
@@ -242,22 +238,49 @@ body {
 	color: rgba(255,255,255,0.8);
 }
 
-#page0_1 {
-	background-image: url(pic/bk1.jpg);
-	color: rgba(255,255,255,0.8);
+#page1TextBox {
+	margin-top: 4%;
+	width: 50%;
+	padding: 40px 40px 40px 150px;
+	border-top: 2px solid rgba(0,0,0,.4);
+	border-right: 2px solid rgba(0,0,0,.4);
+	border-bottom: 2px solid rgba(0,0,0,.4);
+	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
 }
 
 #page2 {
 	background-image: url(http://wallpoper.com/images/00/44/60/48/alaskan-brown-bear-hallo-bay-alaska_00446048.jpg);
 }
 
+#page2TextBox {
+	margin-top: 10%;
+	width: 33%;
+	padding: 20px;
+	float: right;
+	border-top: 2px solid rgba(0,0,0,.4);
+	border-left: 2px solid rgba(0,0,0,.4);
+	border-bottom: 2px solid rgba(0,0,0,.4);
+	box-shadow: -5px 5px 8px rgba(0,0,0,.6);
+}
+
 #page3 {
 	background-image: url(http://wallpoper.com/images/00/41/34/23/alaska-grizzly_00413423.jpg);
 	color: rgba(255,255,255,0.8);
 }
+
+#page3TextBox {
+	margin-top: 5%;
+	width: 30%;
+	padding: 20px;
+	border-top: 2px solid rgba(0,0,0,.4);
+	border-right: 2px solid rgba(0,0,0,.4);
+	border-bottom: 2px solid rgba(0,0,0,.4);
+	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
+}
 #page4 {
 
-	background-image: url(http://images4.alphacoders.com/258/258226.jpg);
+	background-image: url(pic/cloud2.jpg);
+	height: 100vh;
 	position: absolute; 
 	width: 100%;
 	right: -100%;
