@@ -1,21 +1,5 @@
-
-
-
 $('body').mousedown(function(e){if(e.button==1)return false});
-
-// left: 37, up: 38, right: 39, down: 40,
-// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-
-/*
-$(document).ready(function() {
-    $(".imgChange").click(function(){
-    {
-        $('#page0').css("background-image","url(../css/pic/logoTexture.jpg)"); //   Correct the path to your image
-    } 
-
-}
-
-/* Verticall scroll */
+//Verticall scroll 
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -29,8 +13,18 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
-});
 
+	$(".imgChange").on("click", function(e){
+    {
+        e.preventDefault();
+        var imageSrc = $(this).find("img").attr("src");
+        imageSrc = imageSrc.replace("Mini", "");
+        $('#page0').css("background-image", "url("+imageSrc+")"); //   Correct the path to your image
+    }
+
+    });
+
+});
 //Horizontal scroll
 $(function() {
     $('a[class^="horiScroll"]').bind('click',function(event){
@@ -40,7 +34,7 @@ $(function() {
         $('html, body').stop().animate({
             scrollLeft: $($anchor.attr('href')).offset().left
         }, 1500,'easeInOutExpo');
-         */
+        */
         $('html, body').stop().animate({
             scrollLeft: $($anchor.attr('href')).offset().left
         }, 1000);

@@ -139,17 +139,18 @@ body {
 
 #menu {
 	overflow: auto;
-	background-color: rgba(0,0,0, 1);
+	width: 100%;
+	background-color: rgba(0,0,0, 0);
 	position: absolute;
 	position: fixed;
-	border: 1px solid black;
 	top: 0;
 	left: 0;
 }
 
 #menu_top {
-	/*margin-left: 40%; */ 
-	/*margin-top: -16px;*/
+	display: block;
+	margin-left: 40%;
+	
 }
 #menu_top li {
 	display: block;
@@ -162,9 +163,11 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	background-color: white;
-	margin-right: 10px;
+	margin-right: 20px;
 	background-color: rgba(0,0,0, 0.2);
 	color: white;
+	border: 1px solid black;
+
 
 }
 
@@ -181,8 +184,7 @@ body {
 	height: 100vh;
 }
 
-.pageBox {
-	
+.pageBox {	
 }
 
 .pageTextBox {
@@ -192,18 +194,16 @@ body {
 	background-color: rgba(255,255,255,0.5);
 	padding: 50px; 
 	*/
-
-
-	
 }
 
 #page0 {
-	background-image: url(http://wakpaper.com/large/Laptops_wallpapers_168.jpg);
+	background-image: url(pic/bk0.jpg);
 	/*color: rgba(255,255,255,0.8);*/
 	color: white;
 	font-size: 70px;
 	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
 	text-shadow: 0px 2px 5px black;
+
 	}
 
 
@@ -216,9 +216,10 @@ body {
 	width: 80%;
 }
 
+
 #frontPic {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	right: 0;
 	margin-right: 5px;
 
@@ -228,8 +229,21 @@ body {
 	box-shadow: 5px 5px 2px rgba(0,0,0,.5);	
 }
 
+.frontPicClass:hover {
+	-webkit-filter: grayscale(80%);
+}
+#bkrImg0 {
+	background-image: url(pic/bk0Mini.jpg);
+	/*box-shadow:inset -5px -5px 0px 0px red;	*/
+}
+
 #page1 {
 	background-image: url(http://wallpoper.com/images/00/36/63/48/point-alaska_00366348.jpg);
+	color: rgba(255,255,255,0.8);
+}
+
+#page0_1 {
+	background-image: url(pic/bk1.jpg);
 	color: rgba(255,255,255,0.8);
 }
 
