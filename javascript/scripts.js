@@ -7,14 +7,14 @@ $(document).ready(function(){
 	    var target = this.hash,
 	    $target = $(target);
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
+        $('#content').stop().animate({
+	        'scrollTop': $target.offset().top + $("#content").scrollTop()
 	    }, 900, 'swing', function () {
 	        window.location.hash = target;
 	    });
 	});
 
-	$(".imgChange").on("click", function(e){
+$(".imgChange").on("click", function(e){
     {
         e.preventDefault();
         var imageSrc = $(this).find("img").attr("src");
@@ -22,7 +22,7 @@ $(document).ready(function(){
         $('#page0').css("background-image", "url("+imageSrc+")"); //   Correct the path to your image
     }
 
-    });
+});
 
 });
 //Horizontal scroll

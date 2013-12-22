@@ -133,8 +133,21 @@ html {
 	
 }
 
-body {
 
+body {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+
+#content {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	z-index: 50;
 }
 
 #menu {
@@ -145,6 +158,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 100;
 }
 
 #menu_top {
@@ -216,7 +230,7 @@ body {
 
 #frontPic {
 	position: absolute;
-	top: 40%;
+	top: 5%;
 	right: 0;
 	margin-right: 5px;
 }
@@ -277,14 +291,14 @@ body {
 	border-bottom: 2px solid rgba(0,0,0,.4);
 	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
 }
-#page4 {
 
+#page4 {
 	background-image: url(pic/cloud2.jpg);
 	height: 100vh;
-	position: absolute; 
+	position: absolute;
 	width: 100%;
 	right: -100%;
-	top: 300%;
+	top: 0px;
 }
 #page4 .pageTextBox {
 	margin-top: 20%;
