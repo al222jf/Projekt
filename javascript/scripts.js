@@ -19,7 +19,7 @@ $(".imgChange").on("click", function(e){
         e.preventDefault();
         var imageSrc = $(this).find("img").attr("src");
         imageSrc = imageSrc.replace("Mini", "");
-        $('#page0').css("background-image", "url("+imageSrc+")"); //   Correct the path to your image
+        $('#page1').css("background-image", "url("+imageSrc+")"); //   Correct the path to your image
     }
 
 });

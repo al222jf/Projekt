@@ -232,7 +232,7 @@ body {
 
 #frontPic {
 	position: absolute;
-	top: 50%;
+	top: 150%;
 	right: 0;
 	margin-right: 5px;
 }
@@ -255,15 +255,6 @@ body {
 	color: rgba(255,255,255,0.8);
 }
 
-#page1TextBox {
-	margin-top: 4%;
-	width: 50%;
-	padding: 40px 40px 40px 150px;
-	border-top: 2px solid rgba(0,0,0,.4);
-	border-right: 2px solid rgba(0,0,0,.4);
-	border-bottom: 2px solid rgba(0,0,0,.4);
-	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
-}
 
 #page2 {
 	background-image: url(http://wallpoper.com/images/00/44/60/48/alaskan-brown-bear-hallo-bay-alaska_00446048.jpg);
@@ -308,6 +299,19 @@ body {
 	margin-top: 20%;
 }
 
+#page5 {
+	background-image: url(http://wallpoper.com/images/00/39/78/27/women-fuck_00397827.jpg);
+}
+
+#page5TextBox {
+	margin-top: 5%;
+	width: 30%;
+	padding: 20px;
+	border-top: 2px solid rgba(0,0,0,.4);
+	border-right: 2px solid rgba(0,0,0,.4);
+	border-bottom: 2px solid rgba(0,0,0,.4);
+	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
+}
 #form {
 	margin: auto;
 	border-color: rgba(0,0,0,.5);
@@ -325,13 +329,4 @@ body {
 /* Hide scrollbar */
 ::-webkit-scrollbar { 
     display: none; 
-}
-
-#page5 {
-	background-image: url(pic/cloud2.jpg);
-	height: 100vh;
-	position: absolute;
-	width: 100%;
-	left: -100%;
-	
 }
