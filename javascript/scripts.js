@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-$(document).ready(function(){
-   $('.curtains').curtain();
-   
-});
-=======
 $('body').mousedown(function(e){if(e.button==1)return false});
 //Verticall scroll 
 $(document).ready(function(){
@@ -33,7 +27,7 @@ $(".imgChange").on("click", function(e){
 });
 //Horizontal scroll
 $(function() {
-    $('a[class^="horiScroll"]').bind('click',function(event){
+    $('a[class^="contactInfo"]').bind('click',function(event){
         var $anchor = $(this);
         /*
         if you want to use one of the easing effects:
@@ -48,4 +42,20 @@ $(function() {
     });
 });
 
->>>>>>> 05b194c9182d4e31c7c81e8f76c4156c73a8187c
+$(function() {
+    $('a[class^="horiScroll"]').bind('click',function(event){
+        var $anchor = $(this);
+        /*
+        if you want to use one of the easing effects:
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+        */    
+        $('html, body').stop().animate({
+            scrollright: $($anchor.attr('href')).offset().right
+        }, 1000);
+        event.preventDefault();
+    });
+});
+
+

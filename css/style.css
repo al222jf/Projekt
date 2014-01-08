@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
 /**
  * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
  * http://cssreset.com
@@ -146,28 +144,16 @@ body {
 #content {
 	width: 100%;
 	height: 100%;
+	left: 0;
 	overflow-x: hidden;
 	overflow-y: auto;
 	position: absolute;
 	z-index: 50;
 }
 
->>>>>>> 05b194c9182d4e31c7c81e8f76c4156c73a8187c
 #menu {
 	overflow: auto;
 	width: 100%;
-<<<<<<< HEAD
-	background-color: rgba(0,0,0, 0.5);
-	position: absolute;
-	position: fixed;
-	border: 1px solid black;
-	top: 0;
-	left: 0;
-}
-
-#menu_top {
-	margin-top: -16px;
-=======
 	background-color: rgba(0,0,0, 0);
 	position: absolute;
 	position: fixed;
@@ -179,32 +165,14 @@ body {
 #menu_top {
 	display: block;
 	margin-left: 40%;
-	
->>>>>>> 05b194c9182d4e31c7c81e8f76c4156c73a8187c
 }
+
 #menu_top li {
 	display: block;
 	float: left;
 	list-style: none;
 }
 
-<<<<<<< HEAD
-.curtains img {
-	position: relative;
-}
-
-#menu_top li a {
-	display: inline-block;
-	text-decoration: none;
-	background-color: white;
-	margin-right: 10px;
-	background-color: rgba(0,0,0, 0.2);
-	color: white;
-}
-
-#menu a:hover {
-	background-color: blue;
-=======
 
 #menu_top li a {
 	padding: 0 5px 0 5px;
@@ -233,6 +201,7 @@ body {
 	background-color: rgba(255,255,255,.7);
 	color: rgba(0,0,0,.8);
 }
+
 .pageTextBox h1{
 	text-align: center;
 	/*margin-top: 25%;
@@ -275,49 +244,13 @@ body {
 .frontPicClass:hover {
 	-webkit-filter: grayscale(80%);
 }
+
 #bkrImg0 {
 	background-image: url(pic/bk0Mini.jpg);
 	/*box-shadow:inset -5px -5px 0px 0px red;	*/
->>>>>>> 05b194c9182d4e31c7c81e8f76c4156c73a8187c
 }
 
-.pages {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover; 
-	margin-bottom: 0px;
-	margin-left: -9px;
-	margin-right: -8px;
-	margin-bottom: -22px;
-	padding: 20px; 
-	text-align: center;
-}
 #page1 {
-<<<<<<< HEAD
-	height: 1000px;
-	background: url(http://imageshack.us/a/img829/9262/2013529121334762.png);
-	margin-top: -9px;
-	
-	}
-
-#page2 {
-	height: 1000px;
-	background-image: url(http://imageshack.us/a/img6/576/201265132548297.png);
-}
-
-#page3 {
-	height: 1000px;
-	background-image: url(http://imageshack.us/a/img861/9955/201232195239182.png);
-}
-
-#page4 {
-	height: 1000px;
-	background-image: url(http://imageshack.us/a/img42/8384/201221418391845.png);
-}
-#footer {
-	text-align: center;
-	margin-top: 22px;
-=======
 	background-image: url(http://wallpoper.com/images/00/36/63/48/point-alaska_00366348.jpg);
 	color: rgba(255,255,255,0.8);
 }
@@ -367,19 +300,21 @@ body {
 	height: 100vh;
 	position: absolute;
 	width: 100%;
-	right: -100%;
+	left: 100%;
 	top: 0px;
 }
 
 #page4 .pageTextBox {
 	margin-top: 20%;
 }
+
 #form {
 	margin: auto;
 	border-color: rgba(0,0,0,.5);
 	border-style: solid;
 	width: 300px;
 }
+
 #footer {
 	display: none;
 	text-align: center;
@@ -390,5 +325,13 @@ body {
 /* Hide scrollbar */
 ::-webkit-scrollbar { 
     display: none; 
->>>>>>> 05b194c9182d4e31c7c81e8f76c4156c73a8187c
+}
+
+#page5 {
+	background-image: url(pic/cloud2.jpg);
+	height: 100vh;
+	position: absolute;
+	width: 100%;
+	left: -100%;
+	
 }
