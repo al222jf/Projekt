@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+$(document).ready(function(){
+   $('.curtains').curtain();
+   
+});
+=======
 $('body').mousedown(function(e){if(e.button==1)return false});
 //Verticall scroll 
 $(document).ready(function(){
@@ -42,3 +48,4 @@ $(function() {
     });
 });
 
+>>>>>>> 05b194c9182d4e31c7c81e8f76c4156c73a8187c
