@@ -27,7 +27,7 @@ $(".imgChange").on("click", function(e){
 });
 //Horizontal scroll
 $(function() {
-    $('a[class^="horiScroll"]').bind('click',function(event){
+    $('a[class^="contactInfo"]').bind('click',function(event){
         var $anchor = $(this);
         /*
         if you want to use one of the easing effects:
@@ -41,4 +41,21 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$(function() {
+    $('a[class^="horiScroll"]').bind('click',function(event){
+        var $anchor = $(this);
+        /*
+        if you want to use one of the easing effects:
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+        */    
+        $('html, body').stop().animate({
+            scrollright: $($anchor.attr('href')).offset().right
+        }, 1000);
+        event.preventDefault();
+    });
+});
+
 

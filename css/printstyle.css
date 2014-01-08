@@ -1,0 +1,22 @@
+#content {
+	width: auto;
+	float: none !important;
+
+}
+
+#menu {
+	display: none;
+}
+
+#page0 {
+	display: block;
+}
+
+#page1 {
+	display: block;
+}
+
+.pageTextBox {
+	display: block;
+	z-index: 100;
+}
