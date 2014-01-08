@@ -1,6 +1,6 @@
 #content {
+	position: relative;
 	width: auto;
-	float: none !important;
 
 }
 
@@ -8,6 +8,9 @@
 	display: none;
 }
 
+.pages {
+	display: block;
+}
 #page0 {
 	display: block;
 }

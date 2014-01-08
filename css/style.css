@@ -133,13 +133,13 @@ html {
 	
 }
 
-/*
+
 body {
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
 }
-*/
+
 
 #content {
 	width: 100%;
@@ -165,8 +165,8 @@ body {
 #menu_top {
 	display: block;
 	margin-left: 40%;
-	
 }
+
 #menu_top li {
 	display: block;
 	float: left;
@@ -201,6 +201,7 @@ body {
 	background-color: rgba(255,255,255,.7);
 	color: rgba(0,0,0,.8);
 }
+
 .pageTextBox h1{
 	text-align: center;
 	/*margin-top: 25%;
@@ -243,6 +244,7 @@ body {
 .frontPicClass:hover {
 	-webkit-filter: grayscale(80%);
 }
+
 #bkrImg0 {
 	background-image: url(pic/bk0Mini.jpg);
 	/*box-shadow:inset -5px -5px 0px 0px red;	*/
@@ -305,12 +307,14 @@ body {
 #page4 .pageTextBox {
 	margin-top: 20%;
 }
+
 #form {
 	margin: auto;
 	border-color: rgba(0,0,0,.5);
 	border-style: solid;
 	width: 300px;
 }
+
 #footer {
 	display: none;
 	text-align: center;
