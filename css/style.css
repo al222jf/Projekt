@@ -129,6 +129,10 @@ legend {
 
 
 /* Min kod */
+p {
+	margin-bottom: 20px;
+}
+
 html {
 	
 }
@@ -381,14 +385,49 @@ body {
 }
 
 #page5TextBox {
+	background-color: rgba(255,255,255, 0.7);
+	overflow: auto;
 	margin: auto;
-	margin-top: 25%;
-	width: 30%;
+	margin-top: 10%;
+	width: 80%;
+	height: 80%;
 	padding: 20px;
-	border-top: 2px solid rgba(0,0,0,.4);
-	border-right: 2px solid rgba(0,0,0,.4);
-	border-bottom: 2px solid rgba(0,0,0,.4);
+	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
+}
+
+#page5TextBox h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#page5TextBox p {
+	font-size: 18px;
+}
+#aboutText {
+	float: left;
+	width: 50%;
+}
+
+#familyPic {
+	float: right;
+	margin-right: -10%;
+	margin-top: 0px;
+	
+
+}
+
+#familyPicId {
+	width: 75%;
+	height: auto;
+}
+
+#granpaPicId {
+	float: right;
+	width: 30%;
+	height: auto;
+	margin-right: -10%
 }
 #form {
 	margin: auto;
