@@ -164,7 +164,7 @@ body {
 
 #menu_top {
 	display: block;
-	margin-left: 40%;
+	margin-left: 31%;
 }
 
 #menu_top li {
@@ -175,19 +175,13 @@ body {
 
 
 #menu_top li a {
-	padding: 0 5px 0 5px;
+	
 	display: inline-block;
-	text-decoration: none;
-	background-color: white;
+
 	margin-right: 20px;
-	background-color: rgba(0,0,0, 0.6);
-	color: white;
-	border: 1px solid black;
+	
 }
 
-#menu a:hover {
-	background-color: blue;
-}
 
 .pages {
 
@@ -225,15 +219,19 @@ body {
 	}
 
 
-#page0 .pageBox {
-	background-image: url(pic/logoTexture.jpg);
-	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
-	padding-left: 20px;
-	margin-top: 10%;
-	background-color: rgba(64,64,64,.8);
-	width: 80%;
+#logoText {
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	z-index: 80;
 }
 
+#logo {
+	float: left;
+	margin-top: 13%;
+	margin-left: -50%;
+	z-index: 79;
+}
 
 #frontPic {
 	position: absolute;
@@ -265,17 +263,91 @@ body {
 	background-image: url(pic/adventure.jpg);
 }
 
-#page2TextBox {
-	margin-top: 10%;
-	width: 33%;
-	padding: 20px;
-	float: right;
-	border-top: 2px solid rgba(0,0,0,.4);
-	border-left: 2px solid rgba(0,0,0,.4);
-	border-bottom: 2px solid rgba(0,0,0,.4);
-	box-shadow: -5px 5px 8px rgba(0,0,0,.6);
+#hiking {
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	float: left;
+	background-color: rgba(255,255,255, 0.7);
+	margin-left: 5%;
+	margin-top: 5%;
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+
 }
 
+#hikingText {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#hikingPic {
+	margin: 0px;
+	padding: 0px;
+	height: 300px;
+
+}
+
+#wildlife {
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+	background-color: rgba(255,255,255, 0.7);
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+}
+
+#wildlifeText {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#wildlifePic {
+	height: 300px;
+}
+#canoe {
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color: rgba(255,255,255, 0.7);
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+}
+
+#canoeText {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#canoePic {
+	height: 300px;
+}
+#rafting {
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	background-color: rgba(255,255,255, 0.7);
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+}
+
+#raftingText {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#raftingPic {
+	height: 300px;
+}
 #page3 {
 	background-image: url(pic/contact.jpg);
 	color: rgba(255,255,255,0.8);
@@ -309,7 +381,8 @@ body {
 }
 
 #page5TextBox {
-	margin-top: 5%;
+	margin: auto;
+	margin-top: 25%;
 	width: 30%;
 	padding: 20px;
 	border-top: 2px solid rgba(0,0,0,.4);
