@@ -285,7 +285,7 @@ body {
 
 #hiking {
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
 	text-align: center;
 	float: left;
 	background-color: rgba(255,255,255, 0.7);
@@ -310,7 +310,7 @@ body {
 
 #wildlife {
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
 	text-align: center;
 	float: right;
 	margin-right: 5%;
@@ -330,7 +330,7 @@ body {
 }
 #canoe {
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
 	text-align: center;
 	float: left;
 	margin-left: 5%;
@@ -353,7 +353,7 @@ body {
 	margin-right: 5%;
 	margin-top: 5%;
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
 	text-align: center;
 	background-color: rgba(255,255,255, 0.7);
 	border: 1px solid rgba(0,0,0,0.4);
