@@ -216,7 +216,7 @@ body {
 }
 
 #page0 {
-	background-image: url(pic/bk0.jpg);
+	background-image: url(pic/home.jpg);
 	/*color: rgba(255,255,255,0.8);*/
 	color: white;
 	font-size: 70px;
@@ -256,13 +256,13 @@ body {
 }
 
 #page1 {
-	background-image: url(http://wallpoper.com/images/00/36/63/48/point-alaska_00366348.jpg);
+	background-image: url(pic/bk0.jpg);
 	color: rgba(255,255,255,0.8);
 }
 
 
 #page2 {
-	background-image: url(http://wallpoper.com/images/00/44/60/48/alaskan-brown-bear-hallo-bay-alaska_00446048.jpg);
+	background-image: url(pic/adventure.jpg);
 }
 
 #page2TextBox {
@@ -277,7 +277,7 @@ body {
 }
 
 #page3 {
-	background-image: url(http://wallpoper.com/images/00/41/34/23/alaska-grizzly_00413423.jpg);
+	background-image: url(pic/contact.jpg);
 	color: rgba(255,255,255,0.8);
 }
 
@@ -305,7 +305,7 @@ body {
 }
 
 #page5 {
-	background-image: url(http://wallpoper.com/images/00/39/78/27/women-fuck_00397827.jpg);
+	background-image: url(pic/about.jpg);
 }
 
 #page5TextBox {
