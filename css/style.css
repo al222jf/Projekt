@@ -405,27 +405,22 @@ body {
 #page5TextBox p {
 	font-size: 18px;
 }
+
 #aboutText {
-	float: left;
-	width: 50%;
-}
-
-#familyPic {
 	float: right;
-	margin-right: -10%;
-	margin-top: 0px;
-	
-
 }
 
 #familyPicId {
+	display: block;
 	width: 75%;
 	height: auto;
+	margin-right: 22px;
+	float: left;
 }
 
 #granpaPicId {
-	float: right;
-	width: 30%;
+
+	width: 23%;
 	height: auto;
 	margin-right: -10%
 }
