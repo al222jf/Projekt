@@ -215,37 +215,53 @@ body {
 
 #page0 {
 	background-image: url(pic/home.jpg);
-	/*color: rgba(255,255,255,0.8);*/
-	color: white;
-	font-size: 70px;
-	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
-	text-shadow: 0px 2px 5px black;
 	}
+#page0TextBox {
+	background-color: rgba(255,255,255, 0.7);
+	width: 40%;
+	float: left;
+	margin-top: 10%;
+	margin-left: 28%;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
 
+
+}
+
+#page0TextBox h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
 
 #logoText {
 	float: left;
 	margin-top: 5%;
-	margin-left: 5%;
-	z-index: 80;
+	margin-left: -2%;
 }
 
+#alberta {
+	width: 65%;
+	height: auto;
+}
 #logo {
 	float: left;
-	margin-top: 13%;
-	margin-left: -50%;
-	z-index: 79;
+	margin-top: -5%;
+	margin-left: 63%;
 }
+
+
 
 #frontPic {
 	position: absolute;
-	top: 150%;
+	top: 112%;
 	right: 0;
-	margin-right: 5px;
+	margin-right: 15px;
 }
 
 .frontPicClass {
 	box-shadow: 5px 5px 2px rgba(0,0,0,.5);	
+	margin-bottom: 10px;
 }
 
 .frontPicClass:hover {
@@ -274,7 +290,7 @@ body {
 	float: left;
 	background-color: rgba(255,255,255, 0.7);
 	margin-left: 5%;
-	margin-top: 5%;
+	margin-top: 8%;
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
 
@@ -298,7 +314,7 @@ body {
 	text-align: center;
 	float: right;
 	margin-right: 5%;
-	margin-top: 5%;
+	margin-top: 8%;
 	background-color: rgba(255,255,255, 0.7);
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
@@ -358,17 +374,57 @@ body {
 }
 
 #page3TextBox {
-	margin-top: 5%;
-	width: 30%;
+	margin: auto;
+	margin-top: 20%;
+	width: 50%;
 	padding: 20px;
-	border-top: 2px solid rgba(0,0,0,.4);
+	border: 1px solid rgba(0,0,0,.4);
 	border-right: 2px solid rgba(0,0,0,.4);
 	border-bottom: 2px solid rgba(0,0,0,.4);
 	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
 }
 
+#page3TextBox h1 {
+	font-size: 24px;
+	color: black;
+	margin-bottom: 10px;
+} 
+
+#page3TextBox p {
+	font-size: 18px;
+	color: black;
+}
+#pencil {
+	width: 10%;
+	height: auto;
+	float: right;
+}
+#social {
+	display: block;
+	margin-left: 40.5%;
+	margin-top: 20px;
+
+}
+
+#facebook {
+	width: 10%;
+	height: auto;
+}
+#facebook a:hover {
+
+}
+#twitter {
+	width: 10%;
+	height: auto;
+}
+#instagram {
+	width: 10%;
+	height: auto;
+}
+
+
 #page4 {
-	background-image: url(pic/cloud2.jpg);
+	background-image: url(pic/contactleft.jpg);
 	height: 100vh;
 	position: absolute;
 	width: 100%;
