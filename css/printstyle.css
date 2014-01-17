@@ -152,17 +152,55 @@ body {
 	border: none;
 	box-shadow: none;
 }
-#page0 {
+#page0TextBox {
+	border: none;
+	box-shadow: none;
+	width: 100%;
+	margin-left: 0;
+}
+
+#alberta {
 	display: none;
 }
+
+#logo {
+	display: none;
+}
+
 #page1 {
 	display: none;
 }
 
-#page2TextBox {
-	display: block;
+#page2 {
+	display: none;
+}
+
+#page3TextBox {
 	border: none;
 	box-shadow: none;
 	width: 100%;
-	padding: none;
+}
+
+#page3TextBox img {
+	display: none;
+}
+
+#social {
+	display: none;
+}
+
+#aboutText {
+	border: none;
+	box-shadow: none;
+	width: 100%
+}
+
+#aboutText img {
+	display: none;
+}
+
+#page5TextBox {
+	border: none;
+	box-shadow: none;
+	width: 100%
 }

@@ -130,20 +130,19 @@ legend {
 
 /* Min kod */
 p {
+	font-family: Cambria, Georgia, serif;
 	margin-bottom: 20px;
 }
 
-html {
-	
-}
+h1 {
 
+}
 
 body {
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
 }
-
 
 #content {
 	width: 100%;
@@ -165,10 +164,25 @@ body {
 	left: 0;
 	z-index: 100;
 }
+#menu2 {
+	
+}
 
+#menu3 {
+	margin-top: 3px;
+	margin-left: -15px;
+}
+
+#menu4 {
+	margin-left: -15px;
+}
+
+#menu5 {
+	margin-left: -15px;
+}
 #menu_top {
 	display: block;
-	margin-left: 31%;
+	margin-left: 35.25%;
 }
 
 #menu_top li {
@@ -177,26 +191,16 @@ body {
 	list-style: none;
 }
 
-
 #menu_top li a {
-	
 	display: inline-block;
-
-	margin-right: 20px;
-	
+	margin-right: -5px;
 }
 
-
 .pages {
-
 	overflow: auto;
-
 	background-position: center;
-	
 	background-repeat: no-repeat;
-	
 	background-size: cover; 
-	
 	height: 100%;
 }
 
@@ -207,29 +211,25 @@ body {
 
 .pageTextBox h1{
 	text-align: center;
-	/*margin-top: 25%;
-	background-color: rgba(255,255,255,0.5);
-	padding: 50px; 
-	*/
 }
 
 #page0 {
 	background-image: url(pic/home.jpg);
 	}
+
 #page0TextBox {
 	background-color: rgba(255,255,255, 0.7);
 	width: 40%;
 	float: left;
-	margin-top: 10%;
-	margin-left: 28%;
+	margin-top: 3%;
+	margin-left: 31%;
 	padding: 5px;
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
-
-
 }
 
 #page0TextBox h1 {
+	text-align: center;
 	font-size: 24px;
 	margin-bottom: 10px;
 }
@@ -244,13 +244,12 @@ body {
 	width: 65%;
 	height: auto;
 }
+
 #logo {
 	float: left;
 	margin-top: -5%;
-	margin-left: 63%;
+	margin-left: 66%;
 }
-
-
 
 #frontPic {
 	position: absolute;
@@ -278,7 +277,6 @@ body {
 	color: rgba(255,255,255,0.8);
 }
 
-
 #page2 {
 	background-image: url(pic/adventure.jpg);
 }
@@ -293,7 +291,6 @@ body {
 	margin-top: 8%;
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
-
 }
 
 #hikingText {
@@ -305,7 +302,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	height: 300px;
-
 }
 
 #wildlife {
@@ -328,6 +324,7 @@ body {
 #wildlifePic {
 	height: 300px;
 }
+
 #canoe {
 	font-size: 20px;
 	font-weight: bold;
@@ -348,6 +345,7 @@ body {
 #canoePic {
 	height: 300px;
 }
+
 #rafting {
 	float: right;
 	margin-right: 5%;
@@ -368,6 +366,7 @@ body {
 #raftingPic {
 	height: 300px;
 }
+
 #page3 {
 	background-image: url(pic/contact.jpg);
 	color: rgba(255,255,255,0.8);
@@ -394,34 +393,33 @@ body {
 	font-size: 18px;
 	color: black;
 }
+
 #pencil {
 	width: 10%;
 	height: auto;
 	float: right;
 }
+
 #social {
 	display: block;
 	margin-left: 40.5%;
 	margin-top: 20px;
-
 }
 
 #facebook {
 	width: 10%;
 	height: auto;
 }
-#facebook a:hover {
 
-}
 #twitter {
 	width: 10%;
 	height: auto;
 }
+
 #instagram {
 	width: 10%;
 	height: auto;
 }
-
 
 #page4 {
 	background-image: url(pic/contactleft.jpg);
@@ -430,6 +428,31 @@ body {
 	width: 100%;
 	left: 100%;
 	top: 0px;
+}
+
+#page4Box {
+	background-color: rgba(255,255,255, .7);
+	margin: auto;
+	margin-top: 20%;
+	width: 600px;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,.4);
+	box-shadow: 5px 5px 8px rgba(0,0,0,.6);
+}
+
+#page4Box h1 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#arrow {
+	float: left;
+	width: 30%;
+	height: auto;
+	margin-top: -50%;
+	margin-left: -50%
 }
 
 #page4 .pageTextBox {
@@ -475,11 +498,11 @@ body {
 }
 
 #granpaPicId {
-
 	width: 23%;
 	height: auto;
 	margin-right: -10%
 }
+
 #form {
 	margin: auto;
 	border-color: rgba(0,0,0,.5);

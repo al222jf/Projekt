@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-        <title> Projekt! </title>
+        <title> Alberta Adventures! </title>
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/printstyle.css" media="print" />
 	</head>
@@ -86,46 +86,44 @@
 			</div>
 			<div id="page2" class="pages">
 				<a id="adventures"></a>
+				<div id="hiking">
+					<div id="hikingText">
+						<h1> Hiking Tour </h1>
+					</div>
+					<div id="hikingPic">
+						<a href="#"><img src="css/pic/hiking.png" alt="six people hiking"></a>
+					</div>
+				</div>
 
-						<div id="hiking">
-							<div id="hikingText">
-								<h1> Hiking Tour </h1>
-							</div>
-							<div id="hikingPic">
-								<a href="#"><img src="css/pic/hiking.png" alt="six people hiking"></a>
-							</div>
-						</div>
+				<div id="wildlife">
+					<div id="wildlifeText">
+						<h1> Wildlife Discovery Tour </h1>
+					</div>
+					<div id="wildlifePic">
+						<a href="#"><img src="css/pic/wildlife.png" alt="A bear cub eating berrys"></a>
+					</div>
+				</div>
 
-						<div id="wildlife">
-							<div id="wildlifeText">
-								<h1> Wildlife Discovery Tour </h1>
-							</div>
-							<div id="wildlifePic">
-								<a href="#"><img src="css/pic/wildlife.png" alt="A bear cub eating berrys"></a>
-							</div>
-						</div>
-
-						<div id="canoe">
-							<div id="canoeText">
-								<h1> Canoe Tour </h1>
-							</div>
-							<div id="canoePic">
-								<a href="#"><img src="css/pic/canoe.png" alt="people canoing in a calm"></a>
-							</div>
-						</div>
-							
-						<div id="rafting">
-							<div id="raftingText">
-								<h1> Whitewater Rafting </h1>
-							</div>
-							<div id="raftingPic">
-								<a href="#"><img src="css/pic/rafting.png" alt="people rafting in a stream" ></a>
-							</div>
-						</div>
-				
+				<div id="canoe">
+					<div id="canoeText">
+						<h1> Canoe Tour </h1>
+					</div>
+					<div id="canoePic">
+						<a href="#"><img src="css/pic/canoe.png" alt="people canoing in a calm"></a>
+					</div>
+				</div>
+					
+				<div id="rafting">
+					<div id="raftingText">
+						<h1> Whitewater Rafting </h1>
+					</div>
+					<div id="raftingPic">
+						<a href="#"><img src="css/pic/rafting.png" alt="people rafting in a stream" ></a>
+					</div>
+				</div>
 			</div>
 			<div id="page5" class="pages">
-				<div class="pageBox">
+				<div >
 					<div id="page5TextBox" >
 						<a id="about"></a>
 						<div id="aboutText">
@@ -150,7 +148,6 @@
 							in Alberta under “Photos”. </p>
 
 							<p>Hope to see you soon!</p>
-							
 						</div>
 					</div>
 				</div>
@@ -181,37 +178,36 @@
 			</div>
 		</div>
 		<div id="page4">
-				<div class="pageBox">
-					<div class="pageTextBox">
-						<a id="formPage"></a>
-						<a href="#page3" class="contactInfo"> TILLBAKA! </a>
-						<h1> CONTACT </h1>
-						<p> HÄR KAN MAN SKRIVA SAKER!!! </p>
-						<div id="form">
-			                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-			                    <fieldset>
-			                        <legend>Fråga</legend>
-			                        Ärendetyp
-			                            <select name="Typ av fråga">
-			                                <option value="Fråga">Fråga</option>
-			                                <option value="Klagomål">Klagomål</option>
-			                            </select>
-			                            	<br><label for="rubrik">Rubrik:</label>                    
-			                            		<input type="text" id="rubrik" name="Rubrik" size="30"/>
-			                            	<br><label for="fraga">Fråga:</label>
-			                            		<textarea id="fraga" name="Fråga" rows="2" cols="30" placeholder="Skriv din fråga här!"></textarea>
-			                    </fieldset>
-			                    <fieldset>
-			                        <legend>Information om dig</legend>
-			                        Kontakta mig via mail <input type="checkbox" name="Mail" value="kontakt via mail"><br>
-			                        Kontakta mig via telefon <input type="checkbox" name="Telefon" value="kontakt via telefon">
-			                    </fieldset>
-			                    <button type="submit">Skicka frågan</button>
-			                </form>
-						</div>
+			<div>
+				<div id="page4Box">
+					<div>
+						<h1> Contact us </h1>
+					</div>
+					<div id="form">
+		                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+		                    <fieldset>
+		                        Errand
+		                            <select name="Typ av fråga">
+		                                <option value="Fråga">Question</option>
+		                                <option value="Klagomål">Complaints</option>
+		                            </select>
+		                            	<br><label for="rubrik">Headline:</label>                    
+		                            		<input type="text" id="rubrik" name="Rubrik" size="30"/>
+		                            	<br><label for="fraga">Question:</label>
+		                            		<textarea id="fraga" name="Fråga" rows="2" cols="30" placeholder="Write your question here!"></textarea>
+		                    </fieldset>
+		                    <fieldset>
+		                        <legend>How do you want us to contact you?</legend>
+		                        Contact me via e-mail <input type="checkbox" name="Mail" value="kontakt via mail"><br>
+		                        Contact me via phone <input type="checkbox" name="Telefon" value="kontakt via telefon">
+		                    </fieldset>
+		                    <button type="submit">Send question</button>
+		                </form>
+		                <a href="#page3" class="contactInfo"><img id="arrow" src="css/pic/pil.png"></a>
 					</div>
 				</div>
 			</div>
+		</div>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 		<script type="text/javascript" src="javascript/scripts.js"></script>
 	</body>
