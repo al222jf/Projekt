@@ -135,7 +135,12 @@ p {
 }
 
 h1 {
+	font-family: Cambria, Georgia, serif;
+}
 
+h2 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 20px;
 }
 
 body {
@@ -223,7 +228,7 @@ body {
 	float: left;
 	margin-top: 3%;
 	margin-left: 31%;
-	padding: 5px;
+	padding: 50px;
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 10px 10px 20px rgba(0,0,0,.5);
 }
@@ -231,7 +236,7 @@ body {
 #page0TextBox h1 {
 	text-align: center;
 	font-size: 24px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 #logoText {
@@ -249,6 +254,13 @@ body {
 	float: left;
 	margin-top: -5%;
 	margin-left: 66%;
+}
+
+#sign {
+	float: right;
+	width: 200px;
+	height: auto;
+	margin-top: -8%;
 }
 
 #frontPic {
@@ -443,7 +455,6 @@ body {
 #page4Box h1 {
 	text-align: center;
 	font-size: 24px;
-	font-weight: bold;
 	margin-bottom: 20px;
 }
 
@@ -451,8 +462,8 @@ body {
 	float: left;
 	width: 30%;
 	height: auto;
-	margin-top: -50%;
-	margin-left: -50%
+	margin-top: -65%;
+	margin-left: -35%
 }
 
 #page4 .pageTextBox {
@@ -504,10 +515,20 @@ body {
 }
 
 #form {
+	font-family: Cambria, Georgia, serif;
 	margin: auto;
 	border-color: rgba(0,0,0,.5);
 	border-style: solid;
-	width: 300px;
+	width: 400px;
+	padding: 20px;
+}
+
+#rubrik {
+	margin-bottom: 10px;
+}
+
+#fraga {
+	margin-bottom: 20px;
 }
 
 #footer {
